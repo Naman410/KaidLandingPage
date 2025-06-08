@@ -51,32 +51,12 @@ export default function Hero({ onSignupClick }: HeroProps) {
           </p>
         </div>
 
-        {/* Key benefits with emoji styling */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          <div className="flex items-center bg-gradient-to-r from-purple-400 to-purple-500 text-white rounded-full px-6 py-4 shadow-lg transform hover:scale-105 transition-all">
-            <Sparkles className="w-5 h-5 mr-2" />
-            <span className="font-bold">🎨 AI Art Studio</span>
-          </div>
-          <div className="flex items-center bg-gradient-to-r from-blue-400 to-blue-500 text-white rounded-full px-6 py-4 shadow-lg transform hover:scale-105 transition-all">
-            <Brain className="w-5 h-5 mr-2" />
-            <span className="font-bold">🎵 Music Creator</span>
-          </div>
-          <div className="flex items-center bg-gradient-to-r from-pink-400 to-pink-500 text-white rounded-full px-6 py-4 shadow-lg transform hover:scale-105 transition-all">
-            <Heart className="w-5 h-5 mr-2" />
-            <span className="font-bold">📚 Story Builder</span>
-          </div>
-          <div className="flex items-center bg-gradient-to-r from-green-400 to-green-500 text-white rounded-full px-6 py-4 shadow-lg transform hover:scale-105 transition-all">
-            <Zap className="w-5 h-5 mr-2" />
-            <span className="font-bold">🤖 AI Learning</span>
-          </div>
-        </div>
-
         {/* CTA Button - More prominent and centered */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
           <Button
             onClick={onSignupClick}
             size="lg"
-            className="bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-500 hover:from-yellow-500 hover:via-pink-500 hover:to-purple-600 text-white px-16 py-8 text-2xl font-black rounded-full shadow-2xl transform hover:scale-110 transition-all duration-300 border-4 border-white"
+            className="bg-gradient-to-r from-yellow-400 via-pink-400 to-purple-500 hover:from-yellow-500 hover:via-pink-500 hover:to-purple-600 text-white px-8 sm:px-16 py-8 text-2xl font-black rounded-full shadow-2xl transform hover:scale-110 transition-all duration-300 border-4 border-white"
           >
             🚀 Start Your Adventure! ✨
           </Button>

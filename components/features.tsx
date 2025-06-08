@@ -132,13 +132,15 @@ export default function Features({ onSignupClick }: FeaturesProps) {
               <span className="animate-bounce animation-delay-600">🤖</span>
               <span className="animate-bounce animation-delay-800">✨</span>
             </div>
-            <Button
-              onClick={onSignupClick}
-              size="lg"
-              className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white px-10 py-6 text-xl font-black rounded-full shadow-xl transform hover:scale-105 transition-all duration-300"
-            >
-              Start Your KaiD Adventure Now! 🚀
-            </Button>
+            <div className="flex justify-center">
+              <Button
+                onClick={onSignupClick}
+                size="lg"
+                className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white px-6 sm:px-10 py-6 text-lg sm:text-xl font-black rounded-full shadow-xl transform hover:scale-105 transition-all duration-300"
+              >
+                Start Your KaiD Adventure Now! 🚀
+              </Button>
+            </div>
           </div>
         </div>
       </div>

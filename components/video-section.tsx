@@ -22,7 +22,7 @@ export default function VideoSection({ onSignupClick }: VideoSectionProps) {
   }
 
   return (
-    <section id="video" className="py-20 px-4 bg-gradient-to-br from-purple-300 via-pink-200 to-blue-300">
+    <section id="video" className="py-20 px-4 bg-gradient-to-br from-purple-300 via-pink-200 to-blue-300 overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-5xl md:text-6xl font-black text-white mb-6 drop-shadow-lg">
